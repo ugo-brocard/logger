@@ -1,0 +1,21 @@
+{
+    "name": "ugo-brocard/logger",
+    "description": "A PHP package for structured JSON logging, easy integration, and enhanced readability.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ugo Brocard",
+            "email": "ugo.brocard.official@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
